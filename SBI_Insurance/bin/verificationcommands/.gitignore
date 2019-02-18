@@ -1,3 +1,12 @@
 /Page_Verification_commands.class
 /Runtime_Verification_Commands
 /Verify_Runtime_PageTitle.class
+/Get_Runtime_URl.class
+/GetPagesouce.class
+/Runtime_ElementText.class
+/Runtime_page_visibleText.class
+/GetText_Using_Area.class
+/GetRuntime_Attribute.class
+/Runtime_UserInput_From_Editbox.class
+/Verify_Current_SystemDate_At_Application.class
+/Runtime_Getcssvalue.class

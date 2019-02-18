@@ -25,16 +25,13 @@ Runtime_Verification_commands:-->
 getTitle:--->
 			method capture current window title at runtime.
 			In webpapplication every page contain indepedent title.
-		
 			Syntax:-->
 					String Runtime_title=driver.getTitle();
 					System.out.println(Runtime_title);				
 ====================================================================
-		
 getCurrenturl:-->
 				method capture current window Url at runtime.
 				In web application every page contains uniqe URL.
-			
 			Syntax:-->
 					String Runtime_url=driver.getCurrentUrl();
 					System.out.println(Runtime_url);				

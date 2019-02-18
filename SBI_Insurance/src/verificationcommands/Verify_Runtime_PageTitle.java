@@ -3,8 +3,6 @@ package verificationcommands;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import com.google.common.base.Throwables;
-
 public class Verify_Runtime_PageTitle 
 {
 
