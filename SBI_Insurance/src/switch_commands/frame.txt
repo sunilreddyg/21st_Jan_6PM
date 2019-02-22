@@ -77,9 +77,6 @@ How to Switch one frame to another frame
 
 	3. Apply switch to Second Frame
 		driver.switchTo().frame(String framename);
-
-
-
 ---------------------------------------------------------------------------->
 How to Switch to parent frame:---->
 	under parent frame switch required between two sub frames. To get
