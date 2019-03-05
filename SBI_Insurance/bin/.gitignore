@@ -1,12 +1,3 @@
-/browser_launch/
-/java/
-/java1/
-/other_package/
-/selenium_webdriver/
-/verificationcommands/
-/webdriver_locators/
-/validation_commands/
-/validationcommands/
-/switch_commands/
-/mouse_and_keyboard_Interactions/
-/robot_actions/
+/screen_capture/
+/sikuli_scripting/
+/capture_Screen/
