@@ -24,10 +24,10 @@ public class Waitfor_text_VisibleAt_Element_Location {
 		
 		//Identify location and store into referral
 		By text_location=By.xpath("//content[contains(.,'Welcome')]");
-		//Apply explcit wati to verify text visibilty at location.
-		new WebDriverWait(driver, 30).until
+		new WebDriverWait(driver,50).until
 		(ExpectedConditions.textToBePresentInElementLocated
 				(text_location, "Welcome"));
+		
 		System.out.println("Welcome text visible at webpage");
 		
 		

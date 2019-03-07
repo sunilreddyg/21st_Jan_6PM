@@ -27,7 +27,6 @@ public class ExplicitWait_ElementTobe_Clickable
 		By HydCity=By.linkText("Hyderabad, IN - Rajiv Gandhi International (HYD)");
 		new WebDriverWait(driver, 10).until
 		(ExpectedConditions.elementToBeClickable(HydCity)).click();
-		System.out.println("Hyderbard city optino get clicked");
 
 	}
 

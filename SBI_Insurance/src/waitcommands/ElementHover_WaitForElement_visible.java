@@ -25,27 +25,14 @@ public class ElementHover_WaitForElement_visible {
 		//Identify location
 		WebElement Products_Menu=driver.findElement(By.linkText("Products"));
 		//Perfrom mouse hover action on products menu
-		action.moveToElement(Products_Menu).perform();
+		//action.moveToElement(Products_Menu).perform();
 		
 
 		//manage explicit wait until object visible at webpage
-		new WebDriverWait(driver, 20).until
-		(ExpectedConditions.visibilityOfElementLocated(By.linkText("Cards")));
-		System.out.println("Cards menu item visible at Products");
-		
-		
-		//Identify location
-		WebElement Cards=driver.findElement(By.linkText("Cards"));
-		//Mousehover on location
-		action.moveToElement(Cards).perform();
-				
-				
-		//manage explicit wait until object visible at webpage
-		new WebDriverWait(driver, 20).until
-		(ExpectedConditions.visibilityOfElementLocated(By.linkText("Credit Cards"))).click();
-		System.out.println("Credit card option visible at Cards menu");
-				
-		
+		new WebDriverWait(driver,30).until
+		(ExpectedConditions.visibilityOfElementLocated
+				(By.linkText("Cards"))).click();
+		System.out.println("Element is visible");
 		
 	}
 

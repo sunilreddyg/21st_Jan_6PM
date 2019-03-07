@@ -31,6 +31,7 @@ Implicitwait:-->
 		Implicitlywait
 		PageloadTimeout
 		SetScriptTimeout
+		
 	* Implicit wait enable timeout on Exception only. After enabled timeout Once expected
 	  behaviour found it continue execution without wait for timeout.
 
@@ -53,7 +54,7 @@ Implicitwait:-->
 ExplicitWait:-->
 	* Explicitwait manage timegap w.r.t application.
 	* Using explicitwait statement we can set timegap for object behaviour.
-		it will wait until object behaviour load att front page.
+		it will wait until object behaviour load at front page.
 		
 
 
