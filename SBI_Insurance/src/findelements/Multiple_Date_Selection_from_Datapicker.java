@@ -29,8 +29,6 @@ public class Multiple_Date_Selection_from_Datapicker {
 		//Iterate for expected range
 		for (int i = 0; i <= 3; i++) 
 		{
-			
-			
 			//Target Current Month table
 			WebElement Current_month;
 			Current_month=driver.findElement(By.xpath("//div[@id='datePickerWrapper']/table[1]"));
@@ -57,7 +55,6 @@ public class Multiple_Date_Selection_from_Datapicker {
 				Active_dates=Current_month.findElements(By.tagName("a"));
 				
 			}
-			
 			
 			
 			

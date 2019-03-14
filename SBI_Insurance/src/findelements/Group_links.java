@@ -29,7 +29,6 @@ public class Group_links {
 		//Iterate for number of links
 		for (int i = 0; i < nav_links.size(); i++)
 		{
-			
 			//target each link
 			WebElement Eachlink=nav_links.get(i);
 			//get eachlink name
@@ -45,6 +44,7 @@ public class Group_links {
 			
 			
 			driver.navigate().back();
+			
 			
 			
 			//Restore all links
