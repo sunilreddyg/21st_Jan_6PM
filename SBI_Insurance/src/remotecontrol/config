@@ -1,0 +1,20 @@
+
+WebDriverBackedSelenium:-->
+
+		Selenium 3.x higher version no longer support RemoteControl scripting to write directly.
+		RC scripting possible only using WebDriverBackedSelenium Emulator.
+		
+		
+		Note:--> WBS enable RC scripting to design on WebDriver browser.
+
+
+
+Note:--> to work with remotecontrol for selenium  3.x higher versions we need to configure
+		"selenium-leg-rc.jar" to current project
+		
+		=>url:--> https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-leg-rc
+		=> Select selenium version suitable to project
+		=> download executable jar file and configure
+			to current project using buildpath...
+=========================================================================
+Note:--> In 2012 selenium stopped updations officially..

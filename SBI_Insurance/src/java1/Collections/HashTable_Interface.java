@@ -13,10 +13,11 @@ public class HashTable_Interface {
 		 */
 		
 		
-		Hashtable<Integer, String> h = new Hashtable(); 
+		Hashtable<Integer, String> h = new Hashtable<Integer, String>();
         h.put(1, "arjun");
         h.put(2, "varun");
         h.put(3, "kiran");
+        
         		/*
         		 * => 1 is  Key
         		 * => arjun is a value
@@ -28,16 +29,17 @@ public class HashTable_Interface {
         String t1=h.get(2);
         System.out.println(t1);
         
+        
+        //Get all keys
+        Set<Integer> keys=h.keySet();
+        for (Integer eachkey : keys) 
+        {
+			System.out.println(eachkey+"  => "+h.get(eachkey));
+		}
+        
        
         
-       Set<Integer> keys= h.keySet();
-       for (Integer integer : keys) 
-       {
-    	   System.out.println("key names => "+integer);
-    	   System.out.println("key value => "+h.get(integer));
-    	   System.out.println("\n");
-	   }
-		
+     
        
        
        
